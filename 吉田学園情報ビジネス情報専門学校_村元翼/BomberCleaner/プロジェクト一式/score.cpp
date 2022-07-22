@@ -84,7 +84,7 @@ void CScore::Uninit()
 		}
 	}
 
-	CManager::GetPlayData()->SetScore(m_nScore);	// プレイデータにスコアを設定
+	CManager::GetPlayData()->AddScore(m_nScore);	// プレイデータにスコアを設定
 	m_nAll = 0;
 	Release();
 }

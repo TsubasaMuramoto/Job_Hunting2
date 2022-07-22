@@ -138,14 +138,12 @@ void CGame::Uninit(void)
 	// スコア
 	if (m_pScore)
 	{
-		m_pScore->Uninit();
 		m_pScore = nullptr;
 	}
 
 	// 追加スコア
 	if (m_pAddScore)
 	{
-		m_pAddScore->Uninit();
 		m_pAddScore = nullptr;
 	}
 
